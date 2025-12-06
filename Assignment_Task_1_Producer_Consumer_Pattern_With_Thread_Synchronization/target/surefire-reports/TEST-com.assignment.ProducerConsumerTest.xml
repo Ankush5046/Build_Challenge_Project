@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.assignment.ProducerConsumerTest" time="0.069" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ankus\Downloads\Assignment_Task_1_Producer_Consumer_Pattern_With_Thread_Synchronization\target\test-classes;C:\Users\ankus\Downloads\Assignment_Task_1_Producer_Consumer_Pattern_With_Thread_Synchronization\target\classes;C:\Users\ankus\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\ankus\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\ankus\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ankus\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\ankus\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ankus\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\ankus\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\ankus\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\ankus\.m2\repository\org\slf4j\slf4j-simple\2.0.5\slf4j-simple-2.0.5.jar;C:\Users\ankus\.m2\repository\org\slf4j\slf4j-api\2.0.5\slf4j-api-2.0.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\ankus\AppData\Local\Temp\surefire9342170904046639106\surefirebooter-20251205221445107_3.jar C:\Users\ankus\AppData\Local\Temp\surefire9342170904046639106 2025-12-05T22-14-43_907-jvmRun1 surefire-20251205221445107_1tmp surefire_0-20251205221445107_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ankus\Downloads\Assignment_Task_1_Producer_Consumer_Pattern_With_Thread_Synchronization\target\test-classes;C:\Users\ankus\Downloads\Assignment_Task_1_Producer_Consumer_Pattern_With_Thread_Synchronization\target\classes;C:\Users\ankus\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\ankus\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\ankus\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ankus\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\ankus\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ankus\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\ankus\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\ankus\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\ankus\.m2\repository\org\slf4j\slf4j-simple\2.0.5\slf4j-simple-2.0.5.jar;C:\Users\ankus\.m2\repository\org\slf4j\slf4j-api\2.0.5\slf4j-api-2.0.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ankus"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ankus\Downloads\Assignment_Task_1_Producer_Consumer_Pattern_With_Thread_Synchronization"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ankus\AppData\Local\Temp\surefire9342170904046639106\surefirebooter-20251205221445107_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.17+8-LTS-360"/>
+    <property name="user.name" value="ankus"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ankus\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ankus\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.17"/>
+    <property name="user.dir" value="C:\Users\ankus\Downloads\Assignment_Task_1_Producer_Consumer_Pattern_With_Thread_Synchronization"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Users\ankus\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\Users\ankus\AppData\Local\Programs\Python\Python311\;C:\Users\ankus\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\ankus\.cargo\bin;C:\Users\ankus\AppData\Local\Programs\Python\Launcher\;C:\Users\ankus\AppData\Local\Microsoft\WindowsApps;C:\Users\ankus\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;c:\Users\ankus\.vscode\extensions\vscjava.vscode-java-debug-0.58.3\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.17+8-LTS-360"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testTask2BoundedBuffer" classname="com.assignment.ProducerConsumerTest" time="0.03"/>
+  <testcase name="testTask1BlockingQueue" classname="com.assignment.ProducerConsumerTest" time="0.031">
+    <system-err><![CDATA[[Thread-3] INFO com.assignment.Producer - Producing: Item[0:payload-0]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[1:payload-1]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[2:payload-2]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[3:payload-3]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[0:payload-0]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[1:payload-1]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[4:payload-4]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[5:payload-5]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[2:payload-2]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[3:payload-3]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[6:payload-6]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[4:payload-4]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[7:payload-7]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[5:payload-5]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[8:payload-8]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[6:payload-6]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[7:payload-7]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[9:payload-9]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[8:payload-8]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[10:payload-10]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[9:payload-9]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[11:payload-11]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[10:payload-10]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[11:payload-11]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[12:payload-12]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[13:payload-13]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[12:payload-12]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[14:payload-14]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[13:payload-13]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[15:payload-15]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[14:payload-14]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[15:payload-15]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[16:payload-16]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[17:payload-17]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[16:payload-16]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[18:payload-18]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[17:payload-17]
+[Thread-3] INFO com.assignment.Producer - Producing: Item[19:payload-19]
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[18:payload-18]
+[Thread-3] INFO com.assignment.Producer - Sending poison pill...
+[Thread-4] INFO com.assignment.Consumer - Consumed: Item[19:payload-19]
+[Thread-4] INFO com.assignment.Consumer - Poison pill received. Stopping consumer...
+]]></system-err>
+  </testcase>
+</testsuite>
