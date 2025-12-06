@@ -1,0 +1,6 @@
+orderId,date,region,product,category,quantity,unitPrice,salesPerson
+1,2025-01-01,North,Laptop,Electronics,2,50000,Ankush
+2,2025-01-02,South,Phone,Electronics,5,15000,Riya
+3,2025-02-10,East,Tablet,Electronics,3,30000,Rohit
+4,2025-02-15,West,Headphones,Accessories,10,2000,Ankush
+5,2025-03-05,North,Monitor,Electronics,1,12000,Priya
