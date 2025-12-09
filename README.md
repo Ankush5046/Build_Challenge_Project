@@ -1,6 +1,6 @@
 # 🚀 Java Build Challenge – Multi-Assignment Repository
 
-This repository contains the complete implementation of two mandatory Java coding challenge assignments as part of the Build Challenge. Each assignment demonstrates core software engineering concepts including:
+This contains the complete implementation of two mandatory Java coding challenge assignments as part of the Build Challenge. Each assignment demonstrates core software engineering concepts including:
 
  ✅ Multi-threading & synchronization  
  ✅ Functional programming  
@@ -17,7 +17,7 @@ All implementations follow best coding practices, include fully working source c
 
 This repository contains two independent Java projects:
 
-✅ Assignment 1: Producer–Consumer Pattern with Thread Synchronization
+ Assignment 1: Producer–Consumer Pattern with Thread Synchronization
 
 🔹 Short Description
 Implements the classic Producer–Consumer problem using Java multithreading and synchronization.
@@ -38,7 +38,7 @@ A Producer thread reads data from a source container and places items into a sha
 - JUnit Testing
 
 
-✅ Assignment 2: CSV Data Analytics Using Java Streams
+ Assignment 2: CSV Data Analytics Using Java Streams
 
 🔹 Short Description
 Performs data analysis on CSV sales data using Java Streams API and Functional Programming**.
@@ -53,24 +53,21 @@ Performs data analysis on CSV sales data using Java Streams API and Functional P
 This application reads sales data from a CSV file and performs multiple analytical queries using Java Streams, including aggregation, grouping, filtering, and statistical analysis.
 
  🔹 Analytics Performed
-- ✅ Total revenue calculation  
-- ✅ Revenue grouped by region  
-- ✅ Units sold per product  
-- ✅ Average order value  
-- ✅ Largest order detection  
-- ✅ Revenue by salesperson  
-- ✅ Monthly revenue analysis  
-- ✅ Summary statistics (min, max, avg, count, sum)  
-
-All results are printed directly to the console.
-
+-  Total revenue calculation  
+-  Revenue grouped by region  
+-  Units sold per product  
+-  Average order value  
+-  Largest order detection  
+-  Revenue by salesperson  
+-  Monthly revenue analysis  
+-  Summary statistics (min, max, avg, count, sum)  
 
 
 🧪 Unit Testing
 
-- ✅ Implemented using JUnit 5
-- ✅ All analytical methods are covered with test cases
-- ✅ Ensures correctness of calculations and logic
+-  Implemented using JUnit 5
+-  All analytical methods are covered with test cases
+-  Ensures correctness of calculations and logic
 
 Run all tests using:
 
